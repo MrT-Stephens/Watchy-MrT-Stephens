@@ -1,7 +1,0 @@
-(fp_lib_table
-  (lib (name "Watchy")(type "KiCad")(uri "${KIPRJMOD}/Watchy.pretty")(options "")(descr ""))
-  (lib (name "HMC5883L")(type "KiCad")(uri "${KIPRJMOD}/lib/HMC5883L")(options "")(descr ""))
-  (lib (name "BMI270")(type "KiCad")(uri "${KIPRJMOD}/lib/BMI270")(options "")(descr ""))
-  (lib (name "SAM-M8Q")(type "KiCad")(uri "${KIPRJMOD}/lib/SAM-M8Q")(options "")(descr ""))
-  (lib (name "CAM-M8")(type "KiCad")(uri "${KIPRJMOD}/lib/CAM-M8")(options "")(descr ""))
-)
