@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "Watchy-cache")(type "Legacy")(uri "${KIPRJMOD}/Watchy-cache.lib")(options "")(descr ""))
+  (lib (name "HMC5883L")(type "Legacy")(uri "${KIPRJMOD}/lib/HMC5883L/HMC5883L.lib")(options "")(descr ""))
+  (lib (name "BMI270")(type "Legacy")(uri "${KIPRJMOD}/lib/BMI270/BMI270.lib")(options "")(descr ""))
+  (lib (name "SAM-M8Q")(type "Legacy")(uri "${KIPRJMOD}/lib/SAM-M8Q/SAM-M8Q.lib")(options "")(descr ""))
+  (lib (name "CAM-M8")(type "Legacy")(uri "${KIPRJMOD}/lib/CAM-M8/CAM-M8.lib")(options "")(descr ""))
+)
