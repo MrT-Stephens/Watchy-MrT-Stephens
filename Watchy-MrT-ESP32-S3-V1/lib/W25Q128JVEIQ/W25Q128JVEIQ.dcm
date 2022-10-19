@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W25Q128JVEIQ
+D NOR Flash spiFlash, 3V, 128M-bit, 4Kb Uniform Sector
+K
+F https://datasheet.datasheetarchive.com/originals/dk/DKDS-24/460469.pdf
+$ENDCMP
+#
+#End Doc Library

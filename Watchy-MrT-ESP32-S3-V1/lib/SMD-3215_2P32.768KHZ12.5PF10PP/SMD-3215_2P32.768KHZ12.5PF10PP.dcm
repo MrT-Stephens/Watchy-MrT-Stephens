@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMD-3215_2P32.768KHZ12.5PF10PPM
+D SMD Crystal Resonators 32.768KHz +/-10ppm SMD-3215_2P RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/Zhejiang-Abel-Elec-SMD-3215-2P32-768KHZ12-5PF10PPM_C164062.pdf
+$ENDCMP
+#
+#End Doc Library

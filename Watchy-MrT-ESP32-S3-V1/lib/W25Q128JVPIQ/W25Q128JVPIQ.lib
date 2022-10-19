@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model W25Q128JVPIQ
+#/804167/635070/2.49/9/4/Integrated Circuit
+DEF W25Q128JVPIQ IC 0 30 Y Y 1 F N
+F0 "IC" 1850 300 50 H V L CNN
+F1 "W25Q128JVPIQ" 1850 200 50 H V L CNN
+F2 "SON127P600X500X80-9N-D" 1850 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/w25q128jvpiq/winbond-electronics" 1850 0 50 H I L CNN
+F4 "IC FLASH 128M SPI 133MHZ 8WSON" 1850 -100 50 H I L CNN "Description"
+F5 "0.8" 1850 -200 50 H I L CNN "Height"
+F6 "Winbond" 1850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "W25Q128JVPIQ" 1850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "454-W25Q128JVPIQ" 1850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q128JVPIQ?qs=qSfuJ%252Bfl%2Fd676hAD%252B1JSfw%3D%3D" 1850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "W25Q128JVPIQ" 1850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/w25q128jvpiq/winbond-electronics?region=nac" 1850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~CS 1 2000 -500 200 L 50 50 0 0 P
+X DO_(IO1) 2 2000 -200 200 L 50 50 0 0 P
+X ~WP_(IO2) 3 2000 -300 200 L 50 50 0 0 P
+X GND_1 4 0 -400 200 R 50 50 0 0 P
+X DI_(IO0) 5 2000 -100 200 L 50 50 0 0 P
+X CLK 6 2000 0 200 L 50 50 0 0 P
+X ~HOLD_OR_~/RESET_(IO3) 7 2000 -400 200 L 50 50 0 0 P
+X VCC 8 0 0 200 R 50 50 0 0 P
+X GND_2 9 0 -500 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1800 100 1800 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

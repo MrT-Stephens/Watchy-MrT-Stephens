@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BMP390
+D Board Mount Pressure Sensors
+K
+F https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp390-ds002.pdf
+$ENDCMP
+#
+#End Doc Library

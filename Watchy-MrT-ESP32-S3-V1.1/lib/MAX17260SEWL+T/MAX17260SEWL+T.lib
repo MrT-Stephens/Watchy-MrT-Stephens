@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MAX17260SEWL+T
+#/1449147/635070/2.49/9/3/Integrated Circuit
+DEF MAX17260SEWL+T IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "MAX17260SEWL+T" 1150 200 50 H V L CNN
+F2 "BGA9C40P3X3_147X145X69" 1150 100 50 H I L CNN
+F3 "https://datasheets.maximintegrated.com/en/ds/MAX17260.pdf" 1150 0 50 H I L CNN
+F4 "Battery Management 5A 1-Cell Fuel Gauge with ModelGauge m5 EZ with High-Side/Low-Side Current Sensing" 1150 -100 50 H I L CNN "Description"
+F5 "0.69" 1150 -200 50 H I L CNN "Height"
+F6 "Maxim Integrated" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MAX17260SEWL+T" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "700-MAX17260SEWL+T" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX17260SEWL%2bT?qs=%252BEew9%252B0nqrAVHVOv0%2FWV1A%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1150 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1150 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X TH A1 0 0 200 R 50 50 0 0 P
+X SCL A2 0 -100 200 R 50 50 0 0 P
+X CSN A3 0 -200 200 R 50 50 0 0 P
+X BATT B1 0 -300 200 R 50 50 0 0 P
+X ALRT B2 0 -400 200 R 50 50 0 0 P
+X REG B3 1300 0 200 L 50 50 0 0 P
+X SDA C1 1300 -100 200 L 50 50 0 0 P
+X CSPH C2 1300 -200 200 L 50 50 0 0 P
+X GND/CSPL C3 1300 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

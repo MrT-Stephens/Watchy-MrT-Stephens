@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP32-PICO-V3-02-ES
+D SIP MODULE WIFI BLE COMBO
+K
+F https://www.espressif.com/sites/default/files/documentation/esp32-pico-v3-02_datasheet_en.pdf
+$ENDCMP
+#
+#End Doc Library

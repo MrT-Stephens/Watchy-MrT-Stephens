@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AYF531035
+D FFC & FPC Connectors FPC CONN Y5B 10 CON
+K
+F https://www3.panasonic.biz/ac/e_download/control/connector/fpc-ffc/catalog/con_eng_y5bw.pdf?f_cd=200562&via=ok
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ZOE-M8B
+D ZOE-M8 RF Receiver BeiDou, Galileo, GLONASS, GNSS, GPS -160dBm
+K
+F https://www.u-blox.com/sites/default/files/ZOE-M8B_DataSheet_%28UBX-17035164%29.pdf
+$ENDCMP
+#
+#End Doc Library

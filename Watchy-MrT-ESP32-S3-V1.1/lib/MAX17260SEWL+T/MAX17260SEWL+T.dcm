@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX17260SEWL+T
+D Battery Management 5A 1-Cell Fuel Gauge with ModelGauge m5 EZ with High-Side/Low-Side Current Sensing
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX17260.pdf
+$ENDCMP
+#
+#End Doc Library
