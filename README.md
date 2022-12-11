@@ -2,7 +2,6 @@
 This is my version of the Watchy E-Paper smartwatch by sqfmi and the website is "https://watchy.sqfmi.com".
 
 ### Watch-MrT-Esp32-s3
-
 ***Current Version = V1.2***
 
 Custom watchy specifications:
