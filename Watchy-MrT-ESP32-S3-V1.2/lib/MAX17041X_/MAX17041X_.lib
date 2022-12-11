@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MAX17041X+
+#
+DEF MAX17041X+ U 0 40 Y Y 1 L N
+F0 "U" -400 639 50 H V L BNN
+F1 "MAX17041X+" -400 -757 50 H V L BNN
+F2 "BGA9N40P3X3_141X159X69N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Unavailable" 0 0 50 H I L BNN "AVAILABILITY"
+F5 "None" 0 0 50 H I L BNN "PRICE"
+F6 "Maxim Integrated" 0 0 50 H I L BNN "MF"
+F7 "WLP-9 Maxim" 0 0 50 H I L BNN "PACKAGE"
+F8 "MAX17041X+" 0 0 50 H I L BNN "MP"
+F9 "IC Fuel Gauge Li-ion 2CELL 9UCSP" 0 0 50 H I L BNN "DESCRIPTION"
+DRAW
+S -400 -600 400 600 0 0 16 f
+X CELL B3 -600 400 200 R 40 40 0 0 I 
+X EO B1 -600 -200 200 R 40 40 0 0 I C
+X SCL A2 -600 100 200 R 40 40 0 0 I C
+X SDA A1 -600 200 200 R 40 40 0 0 B 
+X SEO C1 -600 -100 200 R 40 40 0 0 I C
+X VDD C2 600 500 200 L 40 40 0 0 W 
+X CTG A3 600 -300 200 L 40 40 0 0 W 
+X GND C3 600 -500 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

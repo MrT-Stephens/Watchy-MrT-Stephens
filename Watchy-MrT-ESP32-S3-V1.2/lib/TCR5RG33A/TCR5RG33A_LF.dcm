@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCR5RG33A,LF
+D LDO Voltage Regulators LDO Reg, Iout: 500mA Vout: 3.3V Auto-Disch Low noise ultra high PSRR
+K
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=70203&prodName=TCR5RG33A
+$ENDCMP
+#
+#End Doc Library

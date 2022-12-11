@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SHT20
+#
+DEF SHT20 U 0 40 Y Y 1 L N
+F0 "U" -400 350 50 H V L BNN
+F1 "SHT20" -400 -450 50 H V L BNN
+F2 "XDCR_SHT20" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Sensirion" 0 0 50 H I L BNN "MANUFACTURER"
+F5 "4" 0 0 50 H I L BNN "PARTREV"
+F6 "1.2 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F7 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+DRAW
+S -400 -400 400 300 0 0 10 f
+X SDA 1 -600 0 200 R 40 40 0 0 B 
+X SCL 6 -600 200 200 R 40 40 0 0 B C
+X VSS 2 600 -300 200 L 40 40 0 0 W 
+X VDD 5 600 200 200 L 40 40 0 0 W 
+X EXP 7 600 -200 200 L 40 40 0 0 P 
+X NC 3 -600 -200 200 R 40 40 0 0 P 
+X NC 4 -600 -200 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
