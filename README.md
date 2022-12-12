@@ -20,6 +20,6 @@ Custom watchy specifications:
 - Vibration Motor.
 
 ### Watchy-MrT-Esp32-s3 3D-Models
-<img src="https://github.com/MrT-Stephens/Watchy_MrT/blob/main/Watchy-MrT-ESP32-S3-V1.1/unknown-4.png?raw=true" title="Watchy-MrT-ESP32-S3">
-<img src="https://github.com/MrT-Stephens/Watchy_MrT/blob/main/Watchy-MrT-ESP32-S3-V1.1/unknown-5.png?raw=true" title="Watchy-MrT-ESP32-S3">
-<img src="https://github.com/MrT-Stephens/Watchy_MrT/blob/main/Watchy-MrT-ESP32-S3-V1.1/unknown-6.png?raw=true" title="Watchy-MrT-ESP32-S3">
+<img src="https://github.com/MrT-Stephens/Watchy_MrT/blob/main/Watchy-MrT-ESP32-S3-V1.2/3d%20model/Watchy-MrT-Esp32-s3-v1.2-0.png?raw=true" title="Watchy-MrT-ESP32-S3">
+<img src="https://github.com/MrT-Stephens/Watchy_MrT/blob/main/Watchy-MrT-ESP32-S3-V1.2/3d%20model/Watchy-MrT-Esp32-s3-v1.2-1.png?raw=true" title="Watchy-MrT-ESP32-S3">
+<img src="https://github.com/MrT-Stephens/Watchy_MrT/blob/main/Watchy-MrT-ESP32-S3-V1.2/3d%20model/Watchy-MrT-Esp32-s3-v1.2-2.png?raw=true" title="Watchy-MrT-ESP32-S3">
