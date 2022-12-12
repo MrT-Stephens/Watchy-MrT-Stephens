@@ -369,7 +369,7 @@
       (net 1 "GND") (pinfunction "VSS_3") (pintype "passive") (tstamp 8592d691-9727-4fdb-9683-2ef860ffd240))
     (pad "10" smd rect locked (at 0.762 -0.5 90) (size 0.25 0.275) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 6 "+3V3") (pinfunction "VDD") (pintype "passive") (tstamp 633bedba-267d-444e-bb88-e9ad41280c8d))
-    (model "BMP390.stp"
+    (model "${KIPRJMOD}/lib/BMP390/BMP390.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -813,9 +813,9 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/lib/3D/Display.step" hide
-      (offset (xyz 0 6 -1))
-      (scale (xyz 1 1.1 1))
+    (model "${KIPRJMOD}/lib/3D/Display.step"
+      (offset (xyz 0 6 -0.75))
+      (scale (xyz 1 0.975 1.2))
       (rotate (xyz 0 -180 90))
     )
   )
@@ -843,6 +843,11 @@
       (net 16 "+BATT") (pinfunction "Pin_1") (pintype "passive") (tstamp cac82da7-1f7d-4392-b564-0236bc9a43cc))
     (pad "2" smd rect locked (at 0.625 2.9 270) (size 0.5 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 72e17efb-e15d-4420-a995-463a656234fc))
+    (model "${KIPRJMOD}/lib/3D/Watchy_Battery.stl" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
@@ -1438,6 +1443,11 @@
       ) (tstamp a8a1e1fc-31d4-4ef4-9376-e9a7080303ea))
     (pad "5" smd rect (at 0 0 135) (size 0.52 0.52) (layers "F.Cu")
       (net 1 "GND") (pinfunction "EXP") (pintype "power_in") (tstamp 79be4612-59ff-4910-a80c-485164f9e2cb))
+    (model "${KIPRJMOD}/lib/NCP167BMX330TBG/NCP167BMX330TBG.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
@@ -1778,7 +1788,7 @@
       (net 5 "VDD_SPI") (pinfunction "VCC") (pintype "passive") (tstamp 50aef7d2-c052-486c-9558-3f2eb95452fa))
     (pad "9" smd rect locked (at 0 0 180) (size 3.45 4.35) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "GND_2") (pintype "passive") (tstamp 000700b3-eb29-4035-81d9-b26b3df19cee))
-    (model "W25Q128JVPIQ.stp"
+    (model "${KIPRJMOD}/lib/W25Q128JVPIQ/W25Q128JVPIQ.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1904,11 +1914,11 @@
     (property "Sheetname" "Power_Managment_Sheet")
     (path "/3ad09c40-7a93-4616-8eb5-b8becaada136/fb30c4d9-f4af-4122-8e9d-73810dda709f")
     (attr through_hole)
-    (fp_text reference "J2" (at -1.425 -3.135 -90) (layer "F.SilkS")
+    (fp_text reference "J2" (at -1.425 -3.135 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5df8d342-bf61-4481-a9dd-efa14b62f090)
     )
-    (fp_text value "USB4110-GF-A_REVB" (at 8.735 7.265 -90) (layer "F.Fab")
+    (fp_text value "USB4110-GF-A_REVB" (at 8.735 7.265 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8f5ff92f-47e8-4176-85c1-66bd3ce3141b)
     )
@@ -1976,6 +1986,11 @@
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 7afc5a22-adbe-4725-b515-e0b53c4981f2))
     (pad "S4" smd rect locked (at 5.11 3.43 270) (size 2.18 2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 3e9b87fd-8e9c-475b-884c-26f5d436c07c))
+    (model "${KIPRJMOD}/lib/USB4110-GF-A_REVB/USB4110-GF-A_REVB.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "ESP32-S3R8:QFN40P700X700X90-57N" (layer "F.Cu")
@@ -3955,9 +3970,9 @@
       (net 17 "VCC") (pintype "passive") (tstamp 1b677c7e-1780-4015-9a6c-00a8ed169579))
     (pad "2" smd rect locked (at 1.15 0 180) (size 0.5 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 15 "VBUS") (pintype "passive") (tstamp 7f6b4a53-5e09-4dec-af98-612a8897e92c))
-    (model "BAT60B.stp"
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.8 0.8 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4075,6 +4090,11 @@
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp d2b24626-ef4a-4967-a53d-fd5359f4c6e4))
     (pad "8" smd rect locked (at -1.2 -1.2) (size 0.4 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 6 "+3V3") (pinfunction "VDD") (pintype "power_in") (tstamp f7726b8d-e8ba-4011-a0f8-4a09527a9d29))
+    (model "${KIPRJMOD}/lib/BME688/BME688.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "SHT4XA:SHT4XA" (layer "F.Cu")
