@@ -24,3 +24,5 @@ Custom watchy specifications:
 <img src="https://github.com/MrT-Stephens/Watchy_MrT/blob/main/Watchy-MrT-ESP32-S3-V1.2/3d%20model/Watchy-MrT-Esp32-s3-v1.2-0.png?raw=true" title="Watchy-MrT-ESP32-S3">
 <img src="https://github.com/MrT-Stephens/Watchy_MrT/blob/main/Watchy-MrT-ESP32-S3-V1.2/3d%20model/Watchy-MrT-Esp32-s3-v1.2-1.png?raw=true" title="Watchy-MrT-ESP32-S3">
 <img src="https://github.com/MrT-Stephens/Watchy_MrT/blob/main/Watchy-MrT-ESP32-S3-V1.2/3d%20model/Watchy-MrT-Esp32-s3-v1.2-2.png?raw=true" title="Watchy-MrT-ESP32-S3">
+<img src="https://github.com/MrT-Stephens/Watchy_MrT/blob/main/Watchy-MrT-ESP32-S3-V1.2/3d%20model/Watchy-MrT-Esp32-s3-v1.2-3.png?raw=true" title="Watchy-MrT-ESP32-S3">
+<img src="https://github.com/MrT-Stephens/Watchy_MrT/blob/main/Watchy-MrT-ESP32-S3-V1.2/3d%20model/Watchy-MrT-Esp32-s3-v1.2-4.png?raw=true" title="Watchy-MrT-ESP32-S3">
